@@ -58,7 +58,7 @@ rm -rf libs/libpfring
 git_clone_path master https://github.com/openwrt/packages libs/libpfring
 cd ../../
 
-rm -rf package/network/utils/xdp-tools package/feeds/kiddin9/fibocom_MHI package/feeds/packages/v4l2loopback
+rm -rf package/network/utils/xdp-tools package/feeds/xiaoka6666/fibocom_MHI package/feeds/packages/v4l2loopback
 
 grep -q 'PKG_RELEASE:=9' package/libs/openssl/Makefile && {
 sh -c "curl -sfL https://github.com/openwrt/openwrt/commit/a48d0bdb77eb93f7fba6e055dace125c72755b6a.patch | patch -d './' -p1 --forward"
